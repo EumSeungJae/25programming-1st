@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\SBSProgrammingF1\\",
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\25programming-1st\\SBSProgrammingF1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A7593670-59B3-468C-8510-00C1D87A52BA}|..\\1_OT\\1_OT.vcxproj|C:\\Users\\Administrator\\Desktop\\1_OT\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\1_OT\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,10 +24,10 @@
               "DocumentIndex": 0,
               "Title": "Main.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\1_OT\\Main.cpp",
-              "RelativeDocumentMoniker": "..\\1_OT\\Main.cpp",
+              "RelativeDocumentMoniker": "..\\..\\1_OT\\Main.cpp",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\1_OT\\Main.cpp",
-              "RelativeToolTip": "..\\1_OT\\Main.cpp",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAkwBkAAAANAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\1_OT\\Main.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-10-15T07:32:12.753Z",
               "EditorCaption": ""

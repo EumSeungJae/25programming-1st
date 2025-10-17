@@ -51,6 +51,9 @@ int main()
 	int TeemoBaseSRH = 5; //초당 체력회복력
 	int TeemoGrowthSRH = 0;
 
+	int TeemoBaseSRM = 5; //초당 마나회복력
+	int TeemoGrowthSRM = 0;
+
 	printf("티모의 정보\n");
 	printf("체력 : %d (+%d)\n", TeemofirstLevelHP , TeemoGrowthHP);       // 598 + 104(현제레벨 -1)
 	printf("현재 체력 : %d\n", TeemofirstLevelHP + (Level - 1) * TeemoGrowthHP);
@@ -60,7 +63,7 @@ int main()
 	printf("현재 공격력 : %d\n", TeemoBaseATK + (Level - 1) * TeemoGrowthATK);
 	printf("공격 속도 : %f (+%f)\n", TeemoBaseASPD , TeemoGrowthASPD);
 	printf("현재 공격 속도 : %f\n", TeemoBaseASPD + (Level - 1) * TeemoGrowthASPD);
-	printf("5초당 체력회복 : 5(+0)\n");
+	printf("5초당 체력회복 : %d(+%d)\n", TeemoBaseSRH , TeemoGrowthSRH);
 	printf("5초당 마나회복 : 5(+0)\n");
 	printf("방어력 : 24(+4)\n");
 

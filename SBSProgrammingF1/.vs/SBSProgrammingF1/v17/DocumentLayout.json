@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\25programming-1st\\SBSProgrammingF1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3D1A8147-5D98-473D-9E21-0BD844CDD143}|3_\uB514\uBC84\uAE45\\3_\uB514\uBC84\uAE45.vcxproj|C:\\Users\\Administrator\\Desktop\\25programming-1st\\SBSProgrammingF1\\3_\uB514\uBC84\uAE45\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3D1A8147-5D98-473D-9E21-0BD844CDD143}|3_\uB514\uBC84\uAE45\\3_\uB514\uBC84\uAE45.vcxproj|solutionrelative:3_\uB514\uBC84\uAE45\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{059DD213-D935-48E7-9BCA-B2F88D5DC2A2}|2_\uC790\uB8CC\uD615\uACFC \uBCC0\uC218\\2_\uC790\uB8CC\uD615\uACFC \uBCC0\uC218.vcxproj|C:\\Users\\Administrator\\Desktop\\25programming-1st\\SBSProgrammingF1\\2_\uC790\uB8CC\uD615\uACFC \uBCC0\uC218\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{059DD213-D935-48E7-9BCA-B2F88D5DC2A2}|2_\uC790\uB8CC\uD615\uACFC \uBCC0\uC218\\2_\uC790\uB8CC\uD615\uACFC \uBCC0\uC218.vcxproj|solutionrelative:2_\uC790\uB8CC\uD615\uACFC \uBCC0\uC218\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -28,18 +32,31 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\25programming-1st\\SBSProgrammingF1\\3_\uB514\uBC84\uAE45\\main.c",
+              "RelativeDocumentMoniker": "3_\uB514\uBC84\uAE45\\main.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\25programming-1st\\SBSProgrammingF1\\3_\uB514\uBC84\uAE45\\main.c",
+              "RelativeToolTip": "3_\uB514\uBC84\uAE45\\main.c",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAGMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-10-17T07:07:24.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.c",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\25programming-1st\\SBSProgrammingF1\\2_\uC790\uB8CC\uD615\uACFC \uBCC0\uC218\\main.c",
               "RelativeDocumentMoniker": "2_\uC790\uB8CC\uD615\uACFC \uBCC0\uC218\\main.c",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\25programming-1st\\SBSProgrammingF1\\2_\uC790\uB8CC\uD615\uACFC \uBCC0\uC218\\main.c",
               "RelativeToolTip": "2_\uC790\uB8CC\uD615\uACFC \uBCC0\uC218\\main.c",
-              "ViewState": "AgIAACcAAAAAAAAAAAAkwDQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAkwEIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-10-16T07:38:09.995Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Main.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\25programming-1st\\SBSProgrammingF1\\1_OT\\Main.cpp",
               "RelativeDocumentMoniker": "1_OT\\Main.cpp",
@@ -47,8 +64,7 @@
               "RelativeToolTip": "1_OT\\Main.cpp",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-16T07:30:34.77Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T07:30:34.77Z"
             }
           ]
         }

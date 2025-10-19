@@ -83,10 +83,10 @@ int main()
 
     // 중단점을 이유를 토대로 많이 찍어보세요.
 
-    int Step;
-    Step = 1;
-    int NextStep;
-    NextStep = Step + 1;
+    int BaseStage;
+    BaseStage = 1;
+    int NextStage;
+    NextStage = BaseStage + 1;
 
     int ExpertBase;
     ExpertBase = 1;

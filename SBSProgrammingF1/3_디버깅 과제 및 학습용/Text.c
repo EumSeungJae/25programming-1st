@@ -26,7 +26,7 @@ int main()
     int exp = 0;         // 현재 경험치
     int gain = 2;        // 행동당 얻는 경험치
     int level = 1;
-    const int MAX_LEVEL = 10;
+    const int MAX_LEVEL = 10;      /// const = 고정시킨다 (상수)
 
     printf("==============================\n");
     printf("   이차함수 기반 경험치 시스템 (정수 + 난이도 상승)\n");

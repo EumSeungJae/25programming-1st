@@ -1,0 +1,9 @@
+﻿  5_main.c
+C:\Users\Administrator\Desktop\25programming-1st\SBSProgrammingF1\5_기본 자료형\5_main.c(1,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+C:\Users\Administrator\Desktop\25programming-1st\SBSProgrammingF1\5_기본 자료형\5_main.c(139,9): warning C4477: 'printf' : 서식 문자열 '%c'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'double'입니다.
+C:\Users\Administrator\Desktop\25programming-1st\SBSProgrammingF1\5_기본 자료형\5_main.c(13,7): warning C4101: 'number1' :참조되지 않은 지역 변수입니다.
+C:\Users\Administrator\Desktop\25programming-1st\SBSProgrammingF1\5_기본 자료형\5_main.c(16,7): warning C4101: 'number4' :참조되지 않은 지역 변수입니다.
+C:\Users\Administrator\Desktop\25programming-1st\SBSProgrammingF1\5_기본 자료형\5_main.c(17,12): warning C4101: 'number5' :참조되지 않은 지역 변수입니다.
+C:\Users\Administrator\Desktop\25programming-1st\SBSProgrammingF1\5_기본 자료형\5_main.c(15,6): warning C4101: 'number3' :참조되지 않은 지역 변수입니다.
+C:\Users\Administrator\Desktop\25programming-1st\SBSProgrammingF1\5_기본 자료형\5_main.c(14,8): warning C4101: 'number2' :참조되지 않은 지역 변수입니다.
+  5_기본 자료형.vcxproj -> C:\Users\Administrator\Desktop\25programming-1st\SBSProgrammingF1\x64\Debug\5_자료형의 사용방법.exe

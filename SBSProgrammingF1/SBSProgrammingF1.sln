@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4_전처리기와 링킹과
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5_자료형의 사용방법", "5_기본 자료형\5_기본 자료형.vcxproj", "{A7A2C330-4E53-49DC-8BC9-F7874D8E5495}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6_코드의 흐름 제어", "6_코드의 흐름 제어 프로젝트\6_코드의 흐름 제어 프로젝트.vcxproj", "{F668D932-FF3D-4B24-B81F-D902E022245F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{A7A2C330-4E53-49DC-8BC9-F7874D8E5495}.Release|x64.Build.0 = Release|x64
 		{A7A2C330-4E53-49DC-8BC9-F7874D8E5495}.Release|x86.ActiveCfg = Release|Win32
 		{A7A2C330-4E53-49DC-8BC9-F7874D8E5495}.Release|x86.Build.0 = Release|Win32
+		{F668D932-FF3D-4B24-B81F-D902E022245F}.Debug|x64.ActiveCfg = Debug|x64
+		{F668D932-FF3D-4B24-B81F-D902E022245F}.Debug|x64.Build.0 = Debug|x64
+		{F668D932-FF3D-4B24-B81F-D902E022245F}.Debug|x86.ActiveCfg = Debug|Win32
+		{F668D932-FF3D-4B24-B81F-D902E022245F}.Debug|x86.Build.0 = Debug|Win32
+		{F668D932-FF3D-4B24-B81F-D902E022245F}.Release|x64.ActiveCfg = Release|x64
+		{F668D932-FF3D-4B24-B81F-D902E022245F}.Release|x64.Build.0 = Release|x64
+		{F668D932-FF3D-4B24-B81F-D902E022245F}.Release|x86.ActiveCfg = Release|Win32
+		{F668D932-FF3D-4B24-B81F-D902E022245F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

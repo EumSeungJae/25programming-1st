@@ -74,6 +74,7 @@ void PlayerKeyBoardSelect()
 }
 void ComputerRandomSelect()
 {
+	//stand(time(NULL));  // 컴퓨터의 랜덤 출력 방식
 	// 컴퓨터가 랜덤으로 선택한 결과를 저장
 	computerchoice = (rand() % 3) + 1; // 1~3 사이의 랜덤 숫자 생성
 	if (computerchoice == 1)
@@ -88,6 +89,8 @@ void ComputerRandomSelect()
 	{
 		computercharacter = "보";
 	}
+	else
+		return;
 }
 void WinDecide()
 {
@@ -120,50 +123,85 @@ int main()
 {
 	srand((unsigned int)time(NULL)); // 랜덤 시드
 	
-		printf("=== 가위바위보 게임 ===\n");
-		printf("1. 가위 (←)\n2. 바위 (↑)\n3. 보 (→)\n");
-		printf("=== 설명 ===\n");
-		printf("컴퓨터는 랜덤 결과를 냅니다.\n");
-		printf("이길 때마다 1점을 얻습니다.\n");
-		printf("3점을 먼저 얻는 쪽이 승리합니다.\n");
-		printf("======================\n");
-		printf("선택 :  ");
+	printf("=== 가위바위보 게임 ===\n");
+	printf("1. 가위 (←)\n2. 바위 (↑)\n3. 보 (→)\n");
+	printf("=== 설명 ===\n");
+	printf("컴퓨터는 랜덤 결과를 냅니다.\n");
+	printf("이길 때마다 1점을 얻습니다.\n");
+	printf("3점을 먼저 얻는 쪽이 승리합니다.\n");
+	printf("======================\n");
+	printf("선택 :  ");
+
 
 	int Round = 1;
 	// for문으로 라운드 반복
 	// 조건 : 플레이어 또는 컴퓨터가 3점에 도달할 때까지 반복
-	for (Round = 1; playerpoint < 3 && computerpoint < 3; Round++);
+	for (Round = 1; playerpoint < 3 && computerpoint < 3; Round++)
 	{
 		//system("cls"); // 화면 정리
-
-
-		printf("%s\n", playercharacter);
 
 		PlayerKeyBoardSelect();
 		ComputerRandomSelect();
 		WinDecide();
 
+		printf("%s\n", playercharacter);
+
+
 		printf("  ====================== \n");
 		printf("플레이어의 선택 : %s  /  컴퓨터의 선택 :  %s\n", playercharacter, computercharacter);
-		printf("점수수코어 - 플레이어 %d : %d 컴퓨터\n", playerpoint, computerpoint);
 		
 		if (Action == 1)
-		
+		{
 			printf("비겼습니다.\n");
-		
+		}
 		else if (Action == 2)
-		
+		{
+			playerpoint ++;
 			printf("플레이어가 승리했습니다.\n");
-		
+		}
 		else if (Action == 3)
-		
+		{
+			computerpoint ++;
 			printf("컴퓨터가 승리했습니다.\n");
-		
+		}
+		printf("점수수코어 - 플레이어 %d : %d 컴퓨터\n", playerpoint, computerpoint);
 
 		printf("  ====================== \n");
 
-		printf("\n계속하려면 아무거나 누르세요...");
-		_getch(); // 결과 확인 후 진행
+		if (playerpoint < 3 && computerpoint < 3)
+		{
+			printf("선택 :  ");
+		}
+		else if (playerpoint == 3)
+		{
+			printf(" --- 플레이어의 승리 ---");
+		}
+		else if (computerpoint == 3)
+		{
+			printf(" --- 컴퓨터의 승리 ---");
+		}
+		// _getch(); // 결과 확인 후 진행
+
+		//while(true)
+		//{
+		//    if(  컴퓨터 또는 유저가 목표 점수에 도달했을때
+		//       break'
+		// 
+		//    // 사람의 표현 방식과 유사하게 코드를 작성하면 => 분석하기 쉽다.
+		//}
 
 	}
 }
+
+/*
+* 개발 이력을 작성해보세요. History
+*  가위, 바위, 보 게임
+*  Version 1.0.0 : 가위 바위 보 게임의 구현 2025-10-22
+*  Version 1.0.1 : 플레이어의 키보드 입력 기능 추가 + 입력 불가능 문제 발생 2025-10-22
+* 
+*  개인의 아이디어로 어떻게 버그를 해결할지 구현.
+*  여러분들만의 가위 바위 보 게임을 구현해보세요.
+* 
+*  //stand(time(NULL));  함수 사용으로 버그발생
+
+*/

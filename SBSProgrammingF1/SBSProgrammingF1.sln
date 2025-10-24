@@ -21,7 +21,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6_1 코드의 흐름 제어
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6_2 코드의 흐름 제어 과제", "6_ 코드의 흐름 제어 과제\6_ 코드의 흐름 제어 과제.vcxproj", "{B38F01F3-6A14-4950-AD41-8868E5C948C2}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7", "7\7.vcxproj", "{035FC184-AB23-44F2-A944-D9A2926573D1}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7_반복문", "7\7.vcxproj", "{035FC184-AB23-44F2-A944-D9A2926573D1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7_자습", "7_자습\7_자습.vcxproj", "{3F9AC245-79F3-4813-872C-8088C0C95570}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,14 @@ Global
 		{035FC184-AB23-44F2-A944-D9A2926573D1}.Release|x64.Build.0 = Release|x64
 		{035FC184-AB23-44F2-A944-D9A2926573D1}.Release|x86.ActiveCfg = Release|Win32
 		{035FC184-AB23-44F2-A944-D9A2926573D1}.Release|x86.Build.0 = Release|Win32
+		{3F9AC245-79F3-4813-872C-8088C0C95570}.Debug|x64.ActiveCfg = Debug|x64
+		{3F9AC245-79F3-4813-872C-8088C0C95570}.Debug|x64.Build.0 = Debug|x64
+		{3F9AC245-79F3-4813-872C-8088C0C95570}.Debug|x86.ActiveCfg = Debug|Win32
+		{3F9AC245-79F3-4813-872C-8088C0C95570}.Debug|x86.Build.0 = Debug|Win32
+		{3F9AC245-79F3-4813-872C-8088C0C95570}.Release|x64.ActiveCfg = Release|x64
+		{3F9AC245-79F3-4813-872C-8088C0C95570}.Release|x64.Build.0 = Release|x64
+		{3F9AC245-79F3-4813-872C-8088C0C95570}.Release|x86.ActiveCfg = Release|Win32
+		{3F9AC245-79F3-4813-872C-8088C0C95570}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

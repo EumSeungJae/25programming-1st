@@ -3,7 +3,7 @@
 * 실습 목표 : 지난 시간에 구현했던 코드를 반복문으로 표현하기
 */
 
-//#define _CRT_SECURE_NO_WARNINGS
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
@@ -28,7 +28,7 @@ int main()
 	int loopcount = 10;
 	printf("반복할 횟수를 작성해주세요 : ");
 
-	//scanf("%d", loopcount);  // loopcount  주소 몇칸 어떻게 저장되어있다.
+	scanf("%d", &loopcount);  // loopcount  주소 몇칸 어떻게 저장되어있다.
 
 
 	for (int i = 0; i < loopcount; i++) // ++ = 1 증가 / i = i + 2 = 2 증가
@@ -75,7 +75,7 @@ int main()
 	}
 
 	// 랜덤 숫자 출력
-	stand(time(NULL)); // 난수 생성기 초기화
+	srand((unsigned int)time(NULL)); // 난수 생성기 초기화
 	int randomValue = rand() % 100 + 1;  // 1 ~ 100 출력
 	printf("랜덤 값 : %d \n", randomValue);
 

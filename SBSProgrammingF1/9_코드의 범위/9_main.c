@@ -137,7 +137,7 @@ void ModifyStatValue(INT, DEX, LUK, STR) // >baseAmount
 {
 	//	int modifyINT = ReturnStatAmount(baseAmount);
 	//  printf("전투에 사용될 INT 스탯 : %d\n", modifyINT);
-	
+
 	int modifyINT = ReturnStatAmount(INT);
 	printf("전투에 사용될 INT 스탯 : %d\n", modifyINT);
 	int modifyDEX = ReturnStatAmount(DEX);

@@ -8,7 +8,7 @@
 * 4. 카드의 합이 21을 넘으면 버스트가 되어 패배한다.
 * 5. 딜러는 카드의 합이 17이상이 될때까지 카드를 더 받는다.
 * 6. 플레이어와 딜러의 카드 합을 비교하여 승패를 결정한다.
-* 7. 승리총합 3점을 가져가야 게임을 이긴다.
+* 7. 플레이어는 10코인이 기본지급되고 코인이 0이되어야 게임이 끝난다. 승리시 코인이 증가한다.
 */
 
 #define _CRT_SECURE_NO_WARNINGS
@@ -30,17 +30,16 @@ int PlayerScore = 0;
 
 int DealerScore = 0;
 int DealerLiteScore = 17;
-
+// 카드 매수 설정 1덱 = 13장
 void CardDeckSetting()
 {
 }
 
 int main()
 {
-	for (size_t i = 0; i < length; i++)
+	for (int i = 0; PlayerScore < 0; i++)
 	{
 
-	}
 	while (CardDeckSelect <= 1 || CardDeckSelect >= 4)
 	{
 		printf("카드 덱을 선택하세요 (1~4) : ");
@@ -58,5 +57,6 @@ int main()
 			return;
 		}
 		// CardDeckSetting();
+	}
 	}
 }

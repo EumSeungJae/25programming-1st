@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7_자습", "7_자습\7_자�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9_ 코드의 범위", "8_\8_.vcxproj", "{B3FBD7E1-27A1-4F57-9475-278A579DE4F1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8_펑크션(함수)만들기", "8_펑크션(함수)만들기\8_펑크션(함수)만들기.vcxproj", "{4AEF246A-2198-4B98-ADBF-DCEF25597D08}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -131,6 +133,14 @@ Global
 		{B3FBD7E1-27A1-4F57-9475-278A579DE4F1}.Release|x64.Build.0 = Release|x64
 		{B3FBD7E1-27A1-4F57-9475-278A579DE4F1}.Release|x86.ActiveCfg = Release|Win32
 		{B3FBD7E1-27A1-4F57-9475-278A579DE4F1}.Release|x86.Build.0 = Release|Win32
+		{4AEF246A-2198-4B98-ADBF-DCEF25597D08}.Debug|x64.ActiveCfg = Debug|x64
+		{4AEF246A-2198-4B98-ADBF-DCEF25597D08}.Debug|x64.Build.0 = Debug|x64
+		{4AEF246A-2198-4B98-ADBF-DCEF25597D08}.Debug|x86.ActiveCfg = Debug|Win32
+		{4AEF246A-2198-4B98-ADBF-DCEF25597D08}.Debug|x86.Build.0 = Debug|Win32
+		{4AEF246A-2198-4B98-ADBF-DCEF25597D08}.Release|x64.ActiveCfg = Release|x64
+		{4AEF246A-2198-4B98-ADBF-DCEF25597D08}.Release|x64.Build.0 = Release|x64
+		{4AEF246A-2198-4B98-ADBF-DCEF25597D08}.Release|x86.ActiveCfg = Release|Win32
+		{4AEF246A-2198-4B98-ADBF-DCEF25597D08}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,14 @@
+﻿  8_main.c
+C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\8_펑크션(함수)만들기\8_main.c(36,2): warning C4013: 'AddPlusFunction'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\8_펑크션(함수)만들기\8_main.c(40,2): warning C4013: 'minus'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\8_펑크션(함수)만들기\8_main.c(41,2): warning C4013: 'multiply'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\8_펑크션(함수)만들기\8_main.c(42,2): warning C4013: 'divide'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\8_펑크션(함수)만들기\8_main.c(45,21): warning C4013: 'SelectPlayerBehavior'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\8_펑크션(함수)만들기\8_main.c(69,9): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+      C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\8_펑크션(함수)만들기\8_main.c(69,9):
+      자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 0개가 제공되었습니다.
+      C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\8_펑크션(함수)만들기\8_main.c(69,9):
+      누락된 variadic 인수 1이(가) 서식 문자열 '%d'에 필요합니다.
+  
+C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\8_펑크션(함수)만들기\8_main.c(136,1): warning C4715: 'SelectPlayerBehavior': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  8_펑크션(함수)만들기.vcxproj -> C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\x64\Debug\8_펑크션(함수)만들기.exe

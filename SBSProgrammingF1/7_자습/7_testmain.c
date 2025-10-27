@@ -13,23 +13,64 @@
 
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-#include <stdbool.h>
 #include <stdlib.h>
 #include <time.h>
 
 // 카드관련
-int CardDeckSelect = 0;
-int GetCardCount = 2;
-int OverBust = 21;
+// 카드사용갯수 설정 13^n 값 구하기 n값을 입력받자.
+int CardMarkerSelect;
+
+void CardSetting(DeckSymbol)
+{
+	for (int Setting = 1; CardMarkerSelect >= 1 || CardMarkerSelect <= 4; Setting++)
+	{
+
+		scanf("%d", &CardMarkerSelect);
+		
+		if (CardMarkerSelect >= 1 && CardMarkerSelect <= 4)
+		{
+			// 옳은 범위내의 값을 입력시 넘어가도록
+			printf(" 사용할 카드문양은 ");
+			for (int i = 1; i == CardMarkerSelect; i++)
+			{
+				printf("%c ", DeckSymbol);
+				DeckSymbol + 1;
+			}
+			printf("입니다.\n");
+			printf(" 확인후 아무키나 눌러주세요.\n");
+			_getch();
+			system("cls");
+			break;
+		}
+		else
+		{
+			// 옳은 범위외의 값을 입력시 다시설정하도록
+			printf(" 다시 입력하세요.\n");
+			printf(" 사용할 문양수 : ");
+			CardSetting();
+			return;
+		}
+	}
+}
+
+// 사용카드 랜덤값 제작
+void RandomGetCard(int totalCards)
+{
+	for (int i = 0; i < totalCards; i++)
+	{
+		int randIndex = (rand() % 13) + 1;
+
+	}
+}
+
+int BaseGetCard = 2;
 
 // 플레이어 관련
 
-int PlayerScore = 0;
+int PlayerCoin = 10;
 
 // 컴퓨터(딜러) 관련
-
-int DealerScore = 0;
-int DealerLiteScore = 17;
+int DealerMiniScore = 17;
 // 카드 매수 설정 1덱 = 13장
 void CardDeckSetting()
 {
@@ -37,26 +78,39 @@ void CardDeckSetting()
 
 int main()
 {
-	for (int i = 0; PlayerScore < 0; i++)
-	{
+	printf(" 사용할 트럼프 문양수를 정해주세요. 1 ~ 4개\n");
+	printf(" 사용할 문양수마다 1~13까지 세트로 사용됩니다.\n");
+	printf(" 사용할 문양수 : ");
+	CardSetting();
 
-	while (CardDeckSelect <= 1 || CardDeckSelect >= 4)
+	while (PlayerCoin > 0)
 	{
-		printf("카드 덱을 선택하세요 (1~4) : ");
-		
-		scanf("%d", &CardDeckSelect);
+		// 카드 셋팅
+		// 게임의 진행요소
+		//for (int Round = 1; )
+		//{
+			// 현황
+		printf(" 선택된 문양수 : %d\n", CardMarkerSelect);
+		printf(" 유저의 코인수 : %d\n", PlayerCoin);
+		//
 
-		if (CardDeckSelect <= 1 && CardDeckSelect >= 4)
-		{
-			printf("선택한 카드 덱 : %d 세트\n", CardDeckSelect);
-			break;
-		}
-		else 
-		{
-			printf("잘못된 입력입니다. 1~4 사이의 숫자를 입력하세요.\n");
-			return;
-		}
-		// CardDeckSetting();
-	}
+	    //}
+
+
+
 	}
 }
+
+/*
+* 블랙 젝의 구성을 해보자.
+* 2025-10-25 블랙잭의 구성수식을 구상해보자.
+* 2025-10-26 블랙잭의 반복문의 구성은 어떻게 하는게좋을까? for문과 while의 순환에 대해 생각해보자
+*            플레이어의 코인을 0이 되면 패배하게끔 만들려면 뭐가좋을까 가장 깔끔한건 while일까?
+*            일단 사용할 카드뭉치(1개당13장)을 설정하고 값을 입력후 저장하는거 까지
+* 2025-10-28 함수를 이용하여 메인코드의 난잡함을 줄여보고 카드뭉치의 입력값을 함수로 뺀뒤에 카드를 받을 랜덤값을 제작
+*            원하는 구상은 카드심볼과 카드를 받는데 여기서 중요한점은 중복이 안되어야 한다는점.
+*            예시로 카드뭉치를 2개쓴다면 S(스페이드) 와 C(클로버)를 쓴다고 표기해주고
+*            플레이어로 S5 S7 을 받았는데 딜러로 S5 C9 를 받았다면 중복되는 카드가 안나오게끔
+*            추가적으로 플레이어의 카드를 더 받을수있게 Hit라는 명령문을 추가해야하고
+*            딜러의 최소수치가 17이 넘도록 설정값을 만들어야한다.
+*/

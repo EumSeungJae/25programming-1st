@@ -19,22 +19,29 @@
 // 카드관련
 // 카드사용갯수 설정 13^n 값 구하기 n값을 입력받자.
 int CardMarkerSelect;
-
-void CardSetting(DeckSymbol)
+int DeckSymbol = 83; //  아스키코드 S 83 클로버 C 67 하트 72 다이아 68
+void CardSetting()
 {
-	for (int Setting = 1; CardMarkerSelect >= 1 || CardMarkerSelect <= 4; Setting++)
+	printf(" 사용할 트럼프 문양수를 정해주세요. 1 ~ 4개\n");
+	printf(" 사용할 문양수마다 1~13까지 세트로 사용됩니다.\n");
+	printf(" 사용할 문양수 : ");
+
+	//for (int Setting = 1; CardMarkerSelect >= 1 && CardMarkerSelect <= 4; Setting++)
+	while (1)
 	{
 
 		scanf("%d", &CardMarkerSelect);
-		
+
 		if (CardMarkerSelect >= 1 && CardMarkerSelect <= 4)
 		{
 			// 옳은 범위내의 값을 입력시 넘어가도록
 			printf(" 사용할 카드문양은 ");
-			for (int i = 1; i == CardMarkerSelect; i++)
+			for (int i = 1; i <= CardMarkerSelect; i++)
 			{
-				printf("%c ", DeckSymbol);
-				DeckSymbol + 1;
+				if (i == 1) { printf("스페이드 S "); }
+				else if (i == 2) { printf("클로버 C "); }
+				else if (i == 3) { printf("하트 H "); }
+				else if (i == 4) { printf("다이아 D "); }
 			}
 			printf("입니다.\n");
 			printf(" 확인후 아무키나 눌러주세요.\n");
@@ -47,8 +54,8 @@ void CardSetting(DeckSymbol)
 			// 옳은 범위외의 값을 입력시 다시설정하도록
 			printf(" 다시 입력하세요.\n");
 			printf(" 사용할 문양수 : ");
-			CardSetting();
-			return;
+			//CardSetting();
+			//return;
 		}
 	}
 }
@@ -78,23 +85,26 @@ void CardDeckSetting()
 
 int main()
 {
-	printf(" 사용할 트럼프 문양수를 정해주세요. 1 ~ 4개\n");
-	printf(" 사용할 문양수마다 1~13까지 세트로 사용됩니다.\n");
-	printf(" 사용할 문양수 : ");
+	
 	CardSetting();
 
 	while (PlayerCoin > 0)
 	{
-		// 카드 셋팅
-		// 게임의 진행요소
-		//for (int Round = 1; )
-		//{
-			// 현황
-		printf(" 선택된 문양수 : %d\n", CardMarkerSelect);
+		// 카드 셋팅 상황
+		printf(" 사용중인 카드문양은 ");
+		for (int i = 1; i <= CardMarkerSelect; i++)
+		{
+			if (i == 1) { printf("스페이드 S "); }
+			else if (i == 2) { printf("클로버 C "); }
+			else if (i == 3) { printf("하트 H "); }
+			else if (i == 4) { printf("다이아 D "); }
+		}
+		printf("입니다.\n");
+		
 		printf(" 유저의 코인수 : %d\n", PlayerCoin);
 		//
 
-	    //}
+		//}
 
 
 

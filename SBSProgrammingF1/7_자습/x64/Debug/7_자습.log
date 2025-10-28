@@ -1,4 +1,1 @@
-﻿  7_testmain.c
-C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\7_자습\7_testmain.c(38,16): warning C4552: '+': 식의 결과가 사용되지 않습니다.
-C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\7_자습\7_testmain.c(42,4): warning C4013: '_getch'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-  7_자습.vcxproj -> C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\x64\Debug\7_자습.exe
+﻿  7_자습.vcxproj -> C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\x64\Debug\7_자습.exe

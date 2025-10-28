@@ -59,7 +59,7 @@ int main()
 	* ModifyStatValue(DEX)
 	*/
 
-	for (int i = 0; i < ? ; i++)
+	//for (int i = 0; i < ? ; i++)
 	{
 
 	}

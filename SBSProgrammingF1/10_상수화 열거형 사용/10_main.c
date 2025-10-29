@@ -1,5 +1,6 @@
 
 #include "Math.h"
+#include "game.h"
 
 // 원의 넓이를 구하는 코드를 작성해보기
 // double pi(3.14) r * r  
@@ -26,11 +27,22 @@ extern const double PI2;
 
 int main()
 {
+	if (CheckPlayerIsBoundary()) // 플레이어가 맵안에 있을 때 조건을 함수로 표현
+	{
+		// 조건 안에 있으면 플레이어가 움직일 수 있다.
+	}
+	else
+	{
+		// 플레이어의 이동을 막는다. 플레이어의 이동 조건. Move()
+	}
+
 	printf("%lf", PI2);
 
 	Test();
-	Test2();
-
+	for (int i = 0; i < 3; i++)
+	{
+		Test2();
+	}
 
 	CalculateCircleArea();
 	CalculateCircleDiameter();
@@ -59,6 +71,7 @@ int main()
 	// else if(그게 아니라면) {플레이어가 경계선 밖으로 나갔습니다} >> 플레이어가 움직이지마세요.
 
 	// 그러면 움직여라.
+	/*
 	고정상수 변수지정 맵의최대가로크기 = 50;
 	고정상수 변수지정 맵의최대세로크기 = 40;
 
@@ -93,5 +106,5 @@ int main()
 			}
 		}
 	}
-
+	*/
 }

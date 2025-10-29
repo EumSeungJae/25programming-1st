@@ -1,2 +1,5 @@
-﻿  Math.c
+﻿  10_main.c
+C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\10_상수화 열거형 사용\10_main.c(34,3): warning C4013: 'Test2'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  Math.c
+  코드를 생성하고 있습니다...
   10_상수화 열거형 사용.vcxproj -> C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\x64\Debug\a10_상수화 열거형 사용.exe

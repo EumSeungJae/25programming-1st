@@ -2,6 +2,9 @@
 #include <stdio.h>
 #include <stdbool.h>
 
+void CalculateBoundaryX();
+void CalculateBoundaryY();
+
 bool CheckPlayerIsBoundary()
 {
 	int mapX = CalculateBoundaryX(0);
@@ -27,9 +30,11 @@ bool CheckPlayerIsBoundary()
 
 void CalculateBoundaryX(int MapOriginX)
 {
+	MapOriginX;
+
 }
 
 void CalculateBoundaryY(int MapOriginY)
 {
-
+	MapOriginY;
 }

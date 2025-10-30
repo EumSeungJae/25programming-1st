@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "a10_상수화 열거형 사
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "a11_자료형과 배열에 대한 이해", "a11_자료형과 배열에 대한 이해\a11_자료형과 배열에 대한 이해.vcxproj", "{7CF90ECA-3F18-4832-AE05-C83DC8C11630}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "a12_2차원 배열 게임에서 배열 활용", "a12_2차원 배열 게임에서 배열 활용\a12_2차원 배열 게임에서 배열 활용.vcxproj", "{97F2C7E6-8ED9-4296-B81B-A8265F0F1589}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +173,14 @@ Global
 		{7CF90ECA-3F18-4832-AE05-C83DC8C11630}.Release|x64.Build.0 = Release|x64
 		{7CF90ECA-3F18-4832-AE05-C83DC8C11630}.Release|x86.ActiveCfg = Release|Win32
 		{7CF90ECA-3F18-4832-AE05-C83DC8C11630}.Release|x86.Build.0 = Release|Win32
+		{97F2C7E6-8ED9-4296-B81B-A8265F0F1589}.Debug|x64.ActiveCfg = Debug|x64
+		{97F2C7E6-8ED9-4296-B81B-A8265F0F1589}.Debug|x64.Build.0 = Debug|x64
+		{97F2C7E6-8ED9-4296-B81B-A8265F0F1589}.Debug|x86.ActiveCfg = Debug|Win32
+		{97F2C7E6-8ED9-4296-B81B-A8265F0F1589}.Debug|x86.Build.0 = Debug|Win32
+		{97F2C7E6-8ED9-4296-B81B-A8265F0F1589}.Release|x64.ActiveCfg = Release|x64
+		{97F2C7E6-8ED9-4296-B81B-A8265F0F1589}.Release|x64.Build.0 = Release|x64
+		{97F2C7E6-8ED9-4296-B81B-A8265F0F1589}.Release|x86.ActiveCfg = Release|Win32
+		{97F2C7E6-8ED9-4296-B81B-A8265F0F1589}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

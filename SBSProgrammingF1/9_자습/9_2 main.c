@@ -12,47 +12,6 @@
 *  포인터의 개념도 가져온다.
 *  레벨과 스텟관련자료는 헤더를 만들고 각가의 소스파일을 생성후 움긴다.
 */
-/*
-#include <stdio.h>
-#include "Level.h"
-#include "Stet.h"
-#include <conio.h> // _kbhit(), _getch() 함수 사용을 위해 필요
-#include <windows.h> // PlayerKeyBoardSelect() 함수 사용을 위해 필요
-
-
-// 시스템 설명 코딩
-
-// 레벨시스템
-// 레벨증가 및 경험치증가
-
-//extern
-
-// 메인코딩
-int main()
-{
-	int Level = 1;
-	int STR = 1;
-	int INT = 1;
-	int VIT = 1;
-	int AGI = 1;
-	int DEX = 1;
-	int MaxStetPoint = 255;
-
-	int BaseStetPoint = 20;
-	int NewStetPoint = 0;
-	int StetPoint = BaseStetPoint + NewStetPoint;
-	
-	LevelUpSystem(Level, STR, INT, VIT, AGI, DEX);
-}
-
-*/
-/*
-*  2025-10-28 
-   스텟분배 구상설정
-
-*  2025-11-02 
-   
-*/
 
 
 #define _CRT_SECURE_NO_WARNINGS
@@ -62,10 +21,11 @@ int main()
 #include <windows.h>
 
 void ShowStatus(int stats[], const char* names[], int selected, int remainPoint);
+void seletWeapon(int TypeNumber[], const char* TypeName[], int selected);
 
 int main()
 {
-    int stats[5] = { 0, 0, 0, 0, 0 };
+    int stats[5] = { 1, 1, 1, 1, 1 };
     const char* statNames[5] = { "STR", "INT", "VIT", "AGI", "DEX" };
     int selected = 0;
     int remainPoint = 10;
@@ -97,7 +57,7 @@ int main()
                     break;
 
                 case 75: // ← (회수)
-                    if (stats[selected] > 0)
+                    if (stats[selected] > 1)
                     {
                         stats[selected]--;
                         remainPoint++;
@@ -121,13 +81,19 @@ int main()
                     printf("%s : %d\n", statNames[i], stats[i]);
                 printf("남은 포인트 : %d\n", remainPoint);
                 printf("===========================\n");
+                printf("= 사용장비 선택으로 넘어갑니다.=\n");
                 break;
+                _getch();
             }
         }
 
-        Sleep(75);
+        Sleep(100);
     }
-
+    for (int i = 0; i < 5; i++)
+    {
+        printf("%s : %d\n", statNames[i], stats[i]);
+    }
+    
     return 0;
 }
 
@@ -145,4 +111,9 @@ void ShowStatus(int stats[], const char* names[], int selected, int remainPoint)
             printf("  %s : %d\n", names[i], stats[i]);
     }
     printf("-----------------\n");
+}
+
+void statusChoice()
+{
+
 }

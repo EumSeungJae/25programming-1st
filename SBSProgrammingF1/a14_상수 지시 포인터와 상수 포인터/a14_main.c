@@ -33,9 +33,9 @@ int main()
 
 	// 예제3. 상수 포인터. 포인터(주소) 바뀌지 않는다.
 
-	int* box2 = 5;
-	boxXPtr = &box2;
-	printf("boxXPtr가 가리키고 있는 값 : %d\n", boxXPtr);
+	//const int* box2 = 5;
+	//boxXPtr = &box2;
+	printf("boxXPtr가 가리키고 있는 값 : %d\n", *boxXPtr);
 
 	// 예제4. 함수에 상수 포인터 / 상수 지시 포인터를 직접 사용해보기
 	// 배열을 하나 선언
@@ -67,16 +67,17 @@ int main()
 	// Test3 inventory. player1 인벤토리 player2인벤토리
 	// player2가 현재 가지고 있는 인벤토리 데이터를 출력할 수 있게 만들어 보세요.
 	
-	int player2inventory[4] = { "1","1","5","3"};
-	const char* Player2inventoryText[4] = { "단검","장검","횟불","약초"};
+	int player2inventoryCount[3] = {1,1,5};
+	const char* Player2inventoryText[3] = { "단검","장검","횟불"};
 																 
-	showplayerinventory(player2inventory, Player2inventoryText);
+	showplayerinventory(player2inventoryCount, Player2inventoryText);
 
 
 	// 실습 예제2
 	// 플레이어의 소유한 데이터를 변경시키는 함수를 만들어 보세요.
 
 	// 출력 -> 동전, 레드포션, 약초
+	
 
 }
 
@@ -110,7 +111,7 @@ void showplayerinventory(int inventoryCount[], const char* inventoryText[])
 
 	for (int i = 0; i < 3; i++)
 	{
-		printf("%s  :  %d\n", inventoryText[i], inventoryCount[i]);
+		printf("%s : %d 개\n", inventoryText[i], inventoryCount[i]);
 	}
 	printf("\n");
 }

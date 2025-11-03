@@ -1,5 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
+#include <conio.h>
+#include <Windows.h>
 
 /*
 *  - 배열의 활용
@@ -19,8 +21,11 @@ const char Money = '$';
 // 벽       : #
 const char Wall = '#';
 
+int PlayerX = 2;
+int PlayerY = 4;
 
-#define MAPSIZE 32
+void Keyboardmove(int PlayerX, int PlayerY);
+#define MAPSIZE 30
 //const int MAPSIZE = 10;
 
 // STAGE 뱔러 니늘랴먄 어떻게
@@ -78,8 +83,7 @@ int main()
 	// 게임 로직. 5Frame 후에 몬스터가 x방향으로 1 움직였다. x+1
 
 	// (3,5) 플레이어가 생성된다.
-	int PlayerX = 2;
-	int PlayerY = 4;
+	
 	STAGE[PlayerX][PlayerY] = Player;
 	// (5,7) 돈이 생성된다.
 	STAGE[4][6] = Money;
@@ -110,15 +114,59 @@ int main()
 		///Update();
 		///Render(); // 화면에 그려주세요.
 		///Buffer(); // 포인터의 개념을 배워야 합니다.
-
+	Keyboardmove(PlayerX, PlayerY);
 
 	//}
-	char a=0;
-	_getch(a);
-	printf("%c", a);
+
 
 
 
 	//printf("%s", STAGE);
 
+}
+void gotoxy(int PlayerX, int PlayerY) 
+{
+	COORD Pos = { PlayerX, PlayerY };
+	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), Pos);
+}
+void Keyboardmove(int PlayerX, int PlayerY)
+{
+
+
+	while (1) {
+		// 기존 위치의 문자를 지우기
+		gotoxy(PlayerX, PlayerY);
+		printf(" ");
+
+		// windows.h , kbhit()
+
+		// 키 입력 처리
+		if (_kbhit()) {
+			int key = _getch();
+			if (key == 224) { // 화살표 키 입력은 224가 먼저 입력됨
+				key = _getch();
+				switch (key) {
+				case 72: // 위쪽 화살표
+					PlayerY--;
+					break;
+				case 80: // 아래쪽 화살표
+					PlayerY++;
+					break;
+				case 75: // 왼쪽 화살표
+					PlayerX--;
+					break;
+				case 77: // 오른쪽 화살표
+					PlayerX++;
+					break;
+				}
+			}
+		}
+
+		// 새로운 위치에 플레이어 출력
+		gotoxy(PlayerX, PlayerY);
+		printf("%c", Player);
+
+		// 화면 깜빡임을 줄이기 위해 일정 시간 대기
+		Sleep(50);
+	}
 }

@@ -125,6 +125,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="9_2 main.c" />
+    <ClCompile Include="Level.c" />
+    <ClCompile Include="Stet.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Level.h" />
+    <ClInclude Include="Stet.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

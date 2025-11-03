@@ -1,0 +1,4 @@
+﻿  13_main.c
+C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a13_포인터의 이해\13_main.c(39,7): warning C4133: '=': 'int *'과(와) 'char *' 사이의 형식이 호환되지 않습니다.
+C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a13_포인터의 이해\13_main.c(57,7): warning C4133: '=': 'char *'과(와) 'double *' 사이의 형식이 호환되지 않습니다.
+  a13_포인터의 이해.vcxproj -> C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\x64\Debug\a13_포인터의 이해.exe

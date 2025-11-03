@@ -1,6 +1,6 @@
 /*
 *  자습목표
-*  레벨에 기반하여 스테이터스에 따른 성장값을 만들자
+*  레벨 성장시스템을 만들어낸다. ( 랜덤값으로 경험치를 받는다.)
 *  레벨 1당 스테이터스는 5가 증가한다.
 *  스테이터스 각 한계 수치는 255다.
 *  증가하는 스테이터스는 STR, INT, VIT, AGI, DEX 가있다.
@@ -8,53 +8,24 @@
 *  초기 스테이터스 포인트로 20이 지급된다.
 *  스테이터스 포인트가 총합 502가 되었을때 스테이터스 각 한계가 510까지 풀린다.
 *  
+*  2025-11-02
+*  포인터의 개념도 가져온다.
+*  레벨과 스텟관련자료는 헤더를 만들고 각가의 소스파일을 생성후 움긴다.
 */
+/*
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include "Level.h"
+#include "Stet.h"
+#include <conio.h> // _kbhit(), _getch() 함수 사용을 위해 필요
+#include <windows.h> // PlayerKeyBoardSelect() 함수 사용을 위해 필요
+
 
 // 시스템 설명 코딩
 
 // 레벨시스템
 // 레벨증가 및 경험치증가
 
-void LevelUpSystem()
-{
-	// 반복되는 레벨링 (임시 레벨제한 200)
-	// 경험치 생성 (임시 랜덤값으로 제작)
-	// 필요 경험치 증가코드도 추가
-
-	// 레벨업시 새로운 스텟포인트 증가 +5
-
-	
-}
-
-// 스테이터스 배분코딩
-// scanf(); 를 통해서? _getch(); 를 통해서? 어디에 저장할까? 각 스테이터스는 255의 제한이 걸린다.
-
-void StetDivision()
-{
-	// 스테이터스를 지급하는 코딩
-
-	// 지급후 저장
-}
-
-// 스테이터스에 따른 능력치 증가코딩
-// 예시 ) STR 1 = 공격력 + 5 / 공격속도 + 2, VIT 4 = 체력 + 100/ 방어력 + 10, AGI 4 = 공격속도 + 50 / 회피률 + 2. DEX 3 = 공격력 2 / 명중률 +1 
-void StatWindowlayer()
-{
-	// 스테이터스 분배후 능력치 결산 코딩
-
-	
-}
-
-
-// 스테이터스 한계돌파 코딩
-// 스테이터스 총합 502가 되면 스테이터스의 한계가 풀린다.
-void StatIncrease()
-{
-	// 스텟포인트 총합이 502가 되면 각 스테이터스 제한을 510까지 늘린다. 
-}
+//extern
 
 // 메인코딩
 int main()
@@ -65,6 +36,7 @@ int main()
 	int VIT = 1;
 	int AGI = 1;
 	int DEX = 1;
+	int MaxStetPoint = 255;
 
 	int BaseStetPoint = 20;
 	int NewStetPoint = 0;
@@ -73,7 +45,104 @@ int main()
 	LevelUpSystem(Level, STR, INT, VIT, AGI, DEX);
 }
 
-
-/*
-*  2025-10-28 스텟분배 구상설정
 */
+/*
+*  2025-10-28 
+   스텟분배 구상설정
+
+*  2025-11-02 
+   
+*/
+
+
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#include <conio.h>
+#include <stdlib.h>
+#include <windows.h>
+
+void ShowStatus(int stats[], const char* names[], int selected, int remainPoint);
+
+int main()
+{
+    int stats[5] = { 0, 0, 0, 0, 0 };
+    const char* statNames[5] = { "STR", "INT", "VIT", "AGI", "DEX" };
+    int selected = 0;
+    int remainPoint = 10;
+
+    while (1)
+    {
+        system("cls");
+        ShowStatus(stats, statNames, selected, remainPoint);
+        printf("↑↓ : 이동 | ←→ : 조정 | Enter : 확정\n");
+
+        if (_kbhit())
+        {
+            int key = _getch();
+
+            if (key == 224) // 방향키 입력
+            {
+                key = _getch();
+
+                switch (key)
+                {
+                case 72: // ↑
+                    if (selected > 0)
+                        selected--;
+                    break;
+
+                case 80: // ↓
+                    if (selected < 4)
+                        selected++;
+                    break;
+
+                case 75: // ← (회수)
+                    if (stats[selected] > 0)
+                    {
+                        stats[selected]--;
+                        remainPoint++;
+                    }
+                    break;
+
+                case 77: // → (투자)
+                    if (remainPoint > 0)
+                    {
+                        stats[selected]++;
+                        remainPoint--;
+                    }
+                    break;
+                }
+            }
+            else if (key == 13) // Enter
+            {
+                system("cls");
+                printf("=== 최종 스탯 분배 결과 ===\n");
+                for (int i = 0; i < 5; i++)
+                    printf("%s : %d\n", statNames[i], stats[i]);
+                printf("남은 포인트 : %d\n", remainPoint);
+                printf("===========================\n");
+                break;
+            }
+        }
+
+        Sleep(100);
+    }
+
+    return 0;
+}
+
+void ShowStatus(int stats[], const char* names[], int selected, int remainPoint)
+{
+    printf("=== 스탯 분배 ===\n");
+    printf("남은 포인트 : %d\n", remainPoint);
+    printf("-----------------\n");
+
+    for (int i = 0; i < 5; i++)
+    {
+        if (i == selected)
+            printf("> %s : %d\n", names[i], stats[i]);
+        else
+            printf("  %s : %d\n", names[i], stats[i]);
+    }
+    printf("-----------------\n");
+}

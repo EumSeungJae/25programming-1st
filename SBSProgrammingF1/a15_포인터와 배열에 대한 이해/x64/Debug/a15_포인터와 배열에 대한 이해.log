@@ -1,0 +1,21 @@
+﻿  15_main.c
+C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a15_포인터와 배열에 대한 이해\15_main.c(30,9): warning C4133: '=': 'float *'과(와) 'int *' 사이의 형식이 호환되지 않습니다.
+C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a15_포인터와 배열에 대한 이해\15_main.c(39,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+      C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a15_포인터와 배열에 대한 이해\15_main.c(39,9):
+      서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a15_포인터와 배열에 대한 이해\15_main.c(62,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+      C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a15_포인터와 배열에 대한 이해\15_main.c(62,9):
+      서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a15_포인터와 배열에 대한 이해\15_main.c(27,15): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+  Pratice.c
+C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a15_포인터와 배열에 대한 이해\Pratice.c(1,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a15_포인터와 배열에 대한 이해\Pratice.c(13,13): warning C4047: '=': 'const int *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+  코드를 생성하고 있습니다...
+C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a15_포인터와 배열에 대한 이해\Pratice.c(14,10): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'const int *'입니다.
+C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a15_포인터와 배열에 대한 이해\Pratice.c(14,10): warning C4313: 'printf': 서식 문자열의 '%d'이(가) const int *' 형식의 인수 1과(와) 충돌합니다.
+C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a15_포인터와 배열에 대한 이해\Pratice.c(20,17): warning C4047: '=': 'const int *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a15_포인터와 배열에 대한 이해\Pratice.c(21,10): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'const int *'입니다.
+C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a15_포인터와 배열에 대한 이해\Pratice.c(21,10): warning C4313: 'printf': 서식 문자열의 '%d'이(가) const int *' 형식의 인수 1과(와) 충돌합니다.
+  a15_포인터와 배열에 대한 이해.vcxproj -> C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\x64\Debug\a15_포인터와 배열에 대한 이해.exe

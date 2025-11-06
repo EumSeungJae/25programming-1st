@@ -1,0 +1,58 @@
+﻿  17_main.c
+C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a17_구조체에 대한 이해\17_main.c(50,6): warning C4030: 첫째 정식 매개 변수 목록이 둘째 목록보다 깁니다.
+C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a17_구조체에 대한 이해\17_main.c(50,6): warning C4028: 정식 매개 변수 1이(가) 선언과 다릅니다.
+C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a17_구조체에 대한 이해\17_main.c(83,9): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+      C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a17_구조체에 대한 이해\17_main.c(83,9):
+      서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  
+C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a17_구조체에 대한 이해\17_main.c(92,22): warning C4028: 정식 매개 변수 1이(가) 선언과 다릅니다.
+C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a17_구조체에 대한 이해\17_main.c(94,9): warning C4477: 'printf' : 서식 문자열 '%ld'에 'long' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'Player'입니다.
+C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a17_구조체에 대한 이해\17_main.c(94,9): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+      C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a17_구조체에 대한 이해\17_main.c(94,9):
+      자리 표시자 및 해당 매개 변수에는 variadic 인수가 2개 필요하지만 1개가 제공되었습니다.
+      C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a17_구조체에 대한 이해\17_main.c(94,9):
+      누락된 variadic 인수 2이(가) 서식 문자열 '%ld'에 필요합니다.
+  
+C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a17_구조체에 대한 이해\17_main.c(99,9): error C2082: 'Orc1' 정식 매개 변수 재정의
+C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a17_구조체에 대한 이해\17_main.c(100,9): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+      C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a17_구조체에 대한 이해\17_main.c(100,9):
+      자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 0개가 제공되었습니다.
+      C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a17_구조체에 대한 이해\17_main.c(100,9):
+      누락된 variadic 인수 1이(가) 서식 문자열 '%d'에 필요합니다.
+  
+C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a17_구조체에 대한 이해\17_main.c(101,9): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+      C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a17_구조체에 대한 이해\17_main.c(101,9):
+      자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 0개가 제공되었습니다.
+      C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a17_구조체에 대한 이해\17_main.c(101,9):
+      누락된 variadic 인수 1이(가) 서식 문자열 '%d'에 필요합니다.
+  
+C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a17_구조체에 대한 이해\17_main.c(102,9): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+      C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a17_구조체에 대한 이해\17_main.c(102,9):
+      자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 0개가 제공되었습니다.
+      C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a17_구조체에 대한 이해\17_main.c(102,9):
+      누락된 variadic 인수 1이(가) 서식 문자열 '%d'에 필요합니다.
+  
+C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a17_구조체에 대한 이해\17_main.c(103,9): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+      C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a17_구조체에 대한 이해\17_main.c(103,9):
+      자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 0개가 제공되었습니다.
+      C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a17_구조체에 대한 이해\17_main.c(103,9):
+      누락된 variadic 인수 1이(가) 서식 문자열 '%d'에 필요합니다.
+  
+C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a17_구조체에 대한 이해\17_main.c(104,9): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+      C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a17_구조체에 대한 이해\17_main.c(104,9):
+      자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 0개가 제공되었습니다.
+      C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a17_구조체에 대한 이해\17_main.c(104,9):
+      누락된 variadic 인수 1이(가) 서식 문자열 '%d'에 필요합니다.
+  
+C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a17_구조체에 대한 이해\17_main.c(105,9): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+      C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a17_구조체에 대한 이해\17_main.c(105,9):
+      자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 0개가 제공되었습니다.
+      C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a17_구조체에 대한 이해\17_main.c(105,9):
+      누락된 variadic 인수 1이(가) 서식 문자열 '%d'에 필요합니다.
+  
+C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a17_구조체에 대한 이해\17_main.c(106,9): warning C4473: 'printf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+      C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a17_구조체에 대한 이해\17_main.c(106,9):
+      자리 표시자 및 해당 매개 변수에는 variadic 인수가 2개 필요하지만 0개가 제공되었습니다.
+      C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a17_구조체에 대한 이해\17_main.c(106,9):
+      누락된 variadic 인수 1이(가) 서식 문자열 '%d'에 필요합니다.
+  

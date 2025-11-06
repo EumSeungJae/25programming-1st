@@ -1,0 +1,5 @@
+﻿  16_main.c
+C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a16_사용자가 정의하는 자료형에 대한 이해\16_main.c(34,6): warning C4028: 정식 매개 변수 3이(가) 선언과 다릅니다.
+C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a16_사용자가 정의하는 자료형에 대한 이해\16_main.c(97,34): warning C4047: '함수': 'int'의 간접 참조 수준이 'int *'과(와) 다릅니다.
+C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\a16_사용자가 정의하는 자료형에 대한 이해\16_main.c(97,34): warning C4024: 'setPlayerStat': 형식 및 실제 매개 변수 3의 형식이 서로 다릅니다.
+  a16_사용자가 정의하는 자료형에 대한 이해.vcxproj -> C:\Users\user\Desktop\25programming-1st\SBSProgrammingF1\x64\Debug\a16_사용자가 정의하는 자료형에 대한 이해.exe

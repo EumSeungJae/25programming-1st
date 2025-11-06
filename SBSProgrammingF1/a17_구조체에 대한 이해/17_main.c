@@ -32,25 +32,25 @@ typedef struct Player {
 }Player;
 
 // enemy 구조체를 직접 선언해보세요. enemy 죽었을 때 주는 보상 Rewerd
-typedef struct Stetus {
+typedef struct AllStetus {
 	int HP;
 	int STR;
 	int INT;
 	int VIT;
 	int AGI;
 	int DEX;
-}Stetus;
+}A_Stetus;
 
 typedef struct Monster_Orc {
-	Stetus Orc_Stetus;
+	A_Stetus Orc_Stetus;
 	EntityPos Orc_Pos;
 	int DropItem;
 }M_Orc;
 
-void PrintPos(EntityPos player);
+void PrintPos(Player player);
 void Orc_DATA(M_Orc Orc1);
 
-int main()
+int main(Player player)
 {
 	// 배열 : 같은 타입의 자료형을 배열을 사용해서 표현할 수 있다.
 	// 주소 한개로 어떻게 1~n?>
@@ -63,18 +63,21 @@ int main()
 	// x좌표, y좌표
 	
 	printf("구조체 사용 이유\n");
-	int x = 0;
-	int y = 0;
+	//int x = 0;
+	//int y = 0;
 
-	EntityPos p1 = { 2 ,4 }; // 초기화(Initialize)
-	PrintPos(p1);
-
-	Player player;
-	EntityPos p2;
-	player.pos = p2 ;
+	
+	Player player1 = { {2,4},{1,1,1,1,1} }; // 초기화(Initialize)
+	PrintPos(player1);
+	
 	BattleEntity battleentity = { 1,2,3,4,5 };
 
-	void Orc_DATA(M_Orc);
+	M_Orc Orc1 = { 
+		{100,60,0,80,20,30},
+		{5,6},
+		1 
+	};
+	Orc_DATA(Orc1);
 
 	// 플레이어, 몬스터(enemy,monster)
 
@@ -89,20 +92,20 @@ int main()
 
 
 
-void PrintPos(Player p1)
+void PrintPos(Player player)
 {
-	printf("플레이어의 현재 위치 : [%ld,%ld]\n");
+	printf("플레이어의 현재 위치 : [%d,%d]\n", player.pos.x, player.pos.y);
 }
 
 void Orc_DATA(M_Orc Orc1)
 {
-	Stetus Orc1 = { 100,60,0,80,20,30 };
-	printf("오크의 체력 : %d\n");
-	printf("오크의 STR : %d\n");
-	printf("오크의 INT : %d\n");
-	printf("오크의 VIT : %d\n");
-	printf("오크의 AGI : %d\n");
-	printf("오크의 DEX : %d\n");
-	printf("오크의 위치 : %d , %d\n");
+	//M_Orc Orc_Stetus = {100,60,0,80,20,30};
+	printf("오크의 체력 : %d\n",Orc1.Orc_Stetus.HP);
+	printf("오크의 STR : %d\n",Orc1.Orc_Stetus.STR);
+	printf("오크의 INT : %d\n",Orc1.Orc_Stetus.INT);
+	printf("오크의 VIT : %d\n",Orc1.Orc_Stetus.VIT);
+	printf("오크의 AGI : %d\n",Orc1.Orc_Stetus.AGI);
+	printf("오크의 DEX : %d\n",Orc1.Orc_Stetus.DEX);
+	printf("오크의 위치 : %d , %d\n",Orc1.Orc_Pos.x,Orc1.Orc_Pos.y);
 
 }

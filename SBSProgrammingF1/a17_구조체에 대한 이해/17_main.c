@@ -78,6 +78,12 @@ int main(Player player)
 		1 
 	};
 	Orc_DATA(Orc1);
+	M_Orc Orc2 = {
+		{120,60,0,80,30,50},
+		{8.3},
+		1
+	};
+	Orc_DATA(Orc2);
 
 	// 플레이어, 몬스터(enemy,monster)
 

@@ -47,7 +47,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "a16_사용자가 정의하�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "a17_구조체에 대한 이해", "a17_구조체에 대한 이해\a17_구조체에 대한 이해.vcxproj", "{54E6609C-F846-4DAB-B8C4-EC8333E6F93E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "a_18 ToyProject_01", "a_18 ToyProject_01\a_18 ToyProject_01.vcxproj", "{01337704-7FE5-4064-8B66-E7CB70592661}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "a18_ ToyProject_01", "a_18 ToyProject_01\a_18 ToyProject_01.vcxproj", "{01337704-7FE5-4064-8B66-E7CB70592661}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "a19_Dungeun", "a19_Dungeun\a19_Dungeun.vcxproj", "{48B011FE-2328-4508-8C4C-EC3DF0C0CA79}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -241,6 +243,14 @@ Global
 		{01337704-7FE5-4064-8B66-E7CB70592661}.Release|x64.Build.0 = Release|x64
 		{01337704-7FE5-4064-8B66-E7CB70592661}.Release|x86.ActiveCfg = Release|Win32
 		{01337704-7FE5-4064-8B66-E7CB70592661}.Release|x86.Build.0 = Release|Win32
+		{48B011FE-2328-4508-8C4C-EC3DF0C0CA79}.Debug|x64.ActiveCfg = Debug|x64
+		{48B011FE-2328-4508-8C4C-EC3DF0C0CA79}.Debug|x64.Build.0 = Debug|x64
+		{48B011FE-2328-4508-8C4C-EC3DF0C0CA79}.Debug|x86.ActiveCfg = Debug|Win32
+		{48B011FE-2328-4508-8C4C-EC3DF0C0CA79}.Debug|x86.Build.0 = Debug|Win32
+		{48B011FE-2328-4508-8C4C-EC3DF0C0CA79}.Release|x64.ActiveCfg = Release|x64
+		{48B011FE-2328-4508-8C4C-EC3DF0C0CA79}.Release|x64.Build.0 = Release|x64
+		{48B011FE-2328-4508-8C4C-EC3DF0C0CA79}.Release|x86.ActiveCfg = Release|Win32
+		{48B011FE-2328-4508-8C4C-EC3DF0C0CA79}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

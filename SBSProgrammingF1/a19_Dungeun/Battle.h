@@ -18,4 +18,5 @@ typedef struct { // 모든개체 전투능력치
 	int CRT;
 }_Battle_Power;
 
-void _PowerSetting(_Battle_Power power, _Stetus stetus);
+
+void _PowerSetting(_Battle_Power* battle, _Stetus stetus);

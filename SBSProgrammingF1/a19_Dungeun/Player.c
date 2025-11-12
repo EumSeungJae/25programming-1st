@@ -23,21 +23,23 @@ void PlayerSetting()
 
 	// 전투능력치 구조체 생성
 	// [1] HP, [2] MP,[3] ATK, [4] MATK, [5] DEF, [6] MDEF, [7]CRT 
-	_Battle_Power* Player_Battle_Power;
-	PlayerPowerSetting(Player_Stetus, &Player_Battle_Power);
+	_Battle_Power Player_Battle_Power = {0,0,0,0,0,0,0};
+
+	_PowerSetting(&Player_Battle_Power, Player_Stetus);
+	
 
 	// 갑옷의 형태차이 0. 경량 / 1. 일반 / 2. 중량 
 	if (player_setting.armor == 0)
 	{   // 경량일때
-		(*Player_Battle_Power).DEF -= 50;
-		(*Player_Battle_Power).MDEF -= 50;
-		(*Player_Battle_Power).CRT += 5;
+		Player_Battle_Power.DEF -= 50;
+		Player_Battle_Power.MDEF -= 50;
+		Player_Battle_Power.CRT += 5;
 	}
 	else if (player_setting.armor==2)
 	{   // 중량일때
-		(*Player_Battle_Power).DEF += 50;
-		(*Player_Battle_Power).MDEF += 50;
-		(*Player_Battle_Power).CRT -= 5;
+		Player_Battle_Power.DEF += 50;
+		Player_Battle_Power.MDEF += 50;
+		Player_Battle_Power.CRT -= 5;
 	}
 
 	// 메인무기변화  대검 장착시 강제 맨손
@@ -49,19 +51,25 @@ void PlayerSetting()
 	// 메인무기변화 한손건 장착시 0. 방패 / 1. 맨손
 	if (player_setting.sub_waepon == 0)
 	{   // 방패사용시
-		(*Player_Battle_Power).DEF += 50;
+		Player_Battle_Power.DEF += 50;
 	}
 	else if (player_setting.sub_waepon == 1)
 	{   // 방패미사용시
-		(*Player_Battle_Power).CRT += 5;
+		Player_Battle_Power.CRT += 5;
 	}
 
 	// 능력치 변화 출력 테스트
-	printf("최대체력 : %d\n", (*Player_Battle_Power).HP);
-	printf("최대마나 : %d\n", (*Player_Battle_Power).MP);
-	printf("물리공격 : %d\n", (*Player_Battle_Power).ATK);
-	printf("마법공격 : %d\n", (*Player_Battle_Power).MATK);
-	printf("물리방어 : %d\n", (*Player_Battle_Power).DEF);
-	printf("마법방어 : %d\n", (*Player_Battle_Power).MDEF);
+	printf("STR : %d\n", Player_Stetus.STR);
+	printf("INT : %d\n", Player_Stetus.INT);
+	printf("VIT : %d\n", Player_Stetus.VIT);
+	printf("AGI : %d\n", Player_Stetus.AGI);
+	printf("DEX : %d\n", Player_Stetus.DEX);
+
+	printf("최대체력 : %d\n", Player_Battle_Power.HP);
+	printf("최대마나 : %d\n", Player_Battle_Power.MP);
+	printf("물리공격 : %d\n", Player_Battle_Power.ATK);
+	printf("마법공격 : %d\n", Player_Battle_Power.MATK);
+	printf("물리방어 : %d\n", Player_Battle_Power.DEF);
+	printf("마법방어 : %d\n", Player_Battle_Power.MDEF);
 
 }

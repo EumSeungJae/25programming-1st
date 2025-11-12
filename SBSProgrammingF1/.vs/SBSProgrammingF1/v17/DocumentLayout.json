@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\25programming-1st\\SBSProgrammingF1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{48B011FE-2328-4508-8C4C-EC3DF0C0CA79}|a19_Dungeun\\a19_Dungeun.vcxproj|C:\\Users\\user\\Desktop\\25programming-1st\\SBSProgrammingF1\\a19_Dungeun\\Battle.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{48B011FE-2328-4508-8C4C-EC3DF0C0CA79}|a19_Dungeun\\a19_Dungeun.vcxproj|solutionrelative:a19_Dungeun\\Battle.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{48B011FE-2328-4508-8C4C-EC3DF0C0CA79}|a19_Dungeun\\a19_Dungeun.vcxproj|C:\\Users\\user\\Desktop\\25programming-1st\\SBSProgrammingF1\\a19_Dungeun\\Player.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{48B011FE-2328-4508-8C4C-EC3DF0C0CA79}|a19_Dungeun\\a19_Dungeun.vcxproj|solutionrelative:a19_Dungeun\\Player.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48B011FE-2328-4508-8C4C-EC3DF0C0CA79}|a19_Dungeun\\a19_Dungeun.vcxproj|C:\\Users\\user\\Desktop\\25programming-1st\\SBSProgrammingF1\\a19_Dungeun\\Battle.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{48B011FE-2328-4508-8C4C-EC3DF0C0CA79}|a19_Dungeun\\a19_Dungeun.vcxproj|solutionrelative:a19_Dungeun\\Battle.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{48B011FE-2328-4508-8C4C-EC3DF0C0CA79}|a19_Dungeun\\a19_Dungeun.vcxproj|C:\\Users\\user\\Desktop\\25programming-1st\\SBSProgrammingF1\\a19_Dungeun\\Monster.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{48B011FE-2328-4508-8C4C-EC3DF0C0CA79}|a19_Dungeun\\a19_Dungeun.vcxproj|solutionrelative:a19_Dungeun\\Monster.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48B011FE-2328-4508-8C4C-EC3DF0C0CA79}|a19_Dungeun\\a19_Dungeun.vcxproj|C:\\Users\\user\\Desktop\\25programming-1st\\SBSProgrammingF1\\a19_Dungeun\\Battle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{48B011FE-2328-4508-8C4C-EC3DF0C0CA79}|a19_Dungeun\\a19_Dungeun.vcxproj|solutionrelative:a19_Dungeun\\Battle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48B011FE-2328-4508-8C4C-EC3DF0C0CA79}|a19_Dungeun\\a19_Dungeun.vcxproj|C:\\Users\\user\\Desktop\\25programming-1st\\SBSProgrammingF1\\a19_Dungeun\\Monster.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{48B011FE-2328-4508-8C4C-EC3DF0C0CA79}|a19_Dungeun\\a19_Dungeun.vcxproj|solutionrelative:a19_Dungeun\\Monster.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{48B011FE-2328-4508-8C4C-EC3DF0C0CA79}|a19_Dungeun\\a19_Dungeun.vcxproj|C:\\Users\\user\\Desktop\\25programming-1st\\SBSProgrammingF1\\a19_Dungeun\\D_main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -19,24 +31,12 @@
       "RelativeMoniker": "D:0:0:{48B011FE-2328-4508-8C4C-EC3DF0C0CA79}|a19_Dungeun\\a19_Dungeun.vcxproj|solutionrelative:a19_Dungeun\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48B011FE-2328-4508-8C4C-EC3DF0C0CA79}|a19_Dungeun\\a19_Dungeun.vcxproj|C:\\Users\\user\\Desktop\\25programming-1st\\SBSProgrammingF1\\a19_Dungeun\\Battle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{48B011FE-2328-4508-8C4C-EC3DF0C0CA79}|a19_Dungeun\\a19_Dungeun.vcxproj|solutionrelative:a19_Dungeun\\Battle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48B011FE-2328-4508-8C4C-EC3DF0C0CA79}|a19_Dungeun\\a19_Dungeun.vcxproj|C:\\Users\\user\\Desktop\\25programming-1st\\SBSProgrammingF1\\a19_Dungeun\\Monster.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{48B011FE-2328-4508-8C4C-EC3DF0C0CA79}|a19_Dungeun\\a19_Dungeun.vcxproj|solutionrelative:a19_Dungeun\\Monster.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{48B011FE-2328-4508-8C4C-EC3DF0C0CA79}|a19_Dungeun\\a19_Dungeun.vcxproj|C:\\Users\\user\\Desktop\\25programming-1st\\SBSProgrammingF1\\a19_Dungeun\\Item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{48B011FE-2328-4508-8C4C-EC3DF0C0CA79}|a19_Dungeun\\a19_Dungeun.vcxproj|solutionrelative:a19_Dungeun\\Item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{48B011FE-2328-4508-8C4C-EC3DF0C0CA79}|a19_Dungeun\\a19_Dungeun.vcxproj|C:\\Users\\user\\Desktop\\25programming-1st\\SBSProgrammingF1\\a19_Dungeun\\D_main.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{48B011FE-2328-4508-8C4C-EC3DF0C0CA79}|a19_Dungeun\\a19_Dungeun.vcxproj|solutionrelative:a19_Dungeun\\D_main.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48B011FE-2328-4508-8C4C-EC3DF0C0CA79}|a19_Dungeun\\a19_Dungeun.vcxproj|C:\\Users\\user\\Desktop\\25programming-1st\\SBSProgrammingF1\\a19_Dungeun\\Monster.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{48B011FE-2328-4508-8C4C-EC3DF0C0CA79}|a19_Dungeun\\a19_Dungeun.vcxproj|solutionrelative:a19_Dungeun\\Monster.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48B011FE-2328-4508-8C4C-EC3DF0C0CA79}|a19_Dungeun\\a19_Dungeun.vcxproj|C:\\Users\\user\\Desktop\\25programming-1st\\SBSProgrammingF1\\a19_Dungeun\\Item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{48B011FE-2328-4508-8C4C-EC3DF0C0CA79}|a19_Dungeun\\a19_Dungeun.vcxproj|solutionrelative:a19_Dungeun\\Item.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -45,44 +45,38 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 280,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 1276,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "Monster.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\25programming-1st\\SBSProgrammingF1\\a19_Dungeun\\Monster.h",
+              "RelativeDocumentMoniker": "a19_Dungeun\\Monster.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\25programming-1st\\SBSProgrammingF1\\a19_Dungeun\\Monster.h",
+              "RelativeToolTip": "a19_Dungeun\\Monster.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-09T10:32:17.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Battle.c",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\25programming-1st\\SBSProgrammingF1\\a19_Dungeun\\Battle.c",
               "RelativeDocumentMoniker": "a19_Dungeun\\Battle.c",
               "ToolTip": "C:\\Users\\user\\Desktop\\25programming-1st\\SBSProgrammingF1\\a19_Dungeun\\Battle.c",
               "RelativeToolTip": "a19_Dungeun\\Battle.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAADgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-11-10T05:31:26.12Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Battle.h",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\25programming-1st\\SBSProgrammingF1\\a19_Dungeun\\Battle.h",
-              "RelativeDocumentMoniker": "a19_Dungeun\\Battle.h",
-              "ToolTip": "C:\\Users\\user\\Desktop\\25programming-1st\\SBSProgrammingF1\\a19_Dungeun\\Battle.h",
-              "RelativeToolTip": "a19_Dungeun\\Battle.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-10T05:31:39.158Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 1041,
-          "SelectedChildIndex": 2,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Player.h",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\25programming-1st\\SBSProgrammingF1\\a19_Dungeun\\Player.h",
               "RelativeDocumentMoniker": "a19_Dungeun\\Player.h",
@@ -90,64 +84,11 @@
               "RelativeToolTip": "a19_Dungeun\\Player.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-09T10:13:20.422Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "D_main.c",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\25programming-1st\\SBSProgrammingF1\\a19_Dungeun\\D_main.c",
-              "RelativeDocumentMoniker": "a19_Dungeun\\D_main.c",
-              "ToolTip": "C:\\Users\\user\\Desktop\\25programming-1st\\SBSProgrammingF1\\a19_Dungeun\\D_main.c",
-              "RelativeToolTip": "a19_Dungeun\\D_main.c",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-11-09T08:58:54.81Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Player.c",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\25programming-1st\\SBSProgrammingF1\\a19_Dungeun\\Player.c",
-              "RelativeDocumentMoniker": "a19_Dungeun\\Player.c",
-              "ToolTip": "C:\\Users\\user\\Desktop\\25programming-1st\\SBSProgrammingF1\\a19_Dungeun\\Player.c",
-              "RelativeToolTip": "a19_Dungeun\\Player.c",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADsAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-11-09T09:01:39.27Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Monster.c",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\25programming-1st\\SBSProgrammingF1\\a19_Dungeun\\Monster.c",
-              "RelativeDocumentMoniker": "a19_Dungeun\\Monster.c",
-              "ToolTip": "C:\\Users\\user\\Desktop\\25programming-1st\\SBSProgrammingF1\\a19_Dungeun\\Monster.c",
-              "RelativeToolTip": "a19_Dungeun\\Monster.c",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAADQAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-11-09T09:03:42.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-09T10:13:20.422Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Monster.h",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\25programming-1st\\SBSProgrammingF1\\a19_Dungeun\\Monster.h",
-              "RelativeDocumentMoniker": "a19_Dungeun\\Monster.h",
-              "ToolTip": "C:\\Users\\user\\Desktop\\25programming-1st\\SBSProgrammingF1\\a19_Dungeun\\Monster.h",
-              "RelativeToolTip": "a19_Dungeun\\Monster.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-09T10:32:17.392Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "Item.h",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\25programming-1st\\SBSProgrammingF1\\a19_Dungeun\\Item.h",
               "RelativeDocumentMoniker": "a19_Dungeun\\Item.h",
@@ -155,12 +96,24 @@
               "RelativeToolTip": "a19_Dungeun\\Item.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-09T10:13:12.034Z",
+              "WhenOpened": "2025-11-09T10:13:12.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Battle.h",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\25programming-1st\\SBSProgrammingF1\\a19_Dungeun\\Battle.h",
+              "RelativeDocumentMoniker": "a19_Dungeun\\Battle.h",
+              "ToolTip": "C:\\Users\\user\\Desktop\\25programming-1st\\SBSProgrammingF1\\a19_Dungeun\\Battle.h",
+              "RelativeToolTip": "a19_Dungeun\\Battle.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-10T05:31:39.158Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "D_main.h",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\25programming-1st\\SBSProgrammingF1\\a19_Dungeun\\D_main.h",
               "RelativeDocumentMoniker": "a19_Dungeun\\D_main.h",
@@ -168,7 +121,51 @@
               "RelativeToolTip": "a19_Dungeun\\D_main.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-09T12:30:05.514Z",
+              "WhenOpened": "2025-11-09T12:30:05.514Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 806,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Player.c",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\25programming-1st\\SBSProgrammingF1\\a19_Dungeun\\Player.c",
+              "RelativeDocumentMoniker": "a19_Dungeun\\Player.c",
+              "ToolTip": "C:\\Users\\user\\Desktop\\25programming-1st\\SBSProgrammingF1\\a19_Dungeun\\Player.c",
+              "RelativeToolTip": "a19_Dungeun\\Player.c",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-11-09T09:01:39.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "D_main.c",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\25programming-1st\\SBSProgrammingF1\\a19_Dungeun\\D_main.c",
+              "RelativeDocumentMoniker": "a19_Dungeun\\D_main.c",
+              "ToolTip": "C:\\Users\\user\\Desktop\\25programming-1st\\SBSProgrammingF1\\a19_Dungeun\\D_main.c",
+              "RelativeToolTip": "a19_Dungeun\\D_main.c",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-11-09T08:58:54.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Monster.c",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\25programming-1st\\SBSProgrammingF1\\a19_Dungeun\\Monster.c",
+              "RelativeDocumentMoniker": "a19_Dungeun\\Monster.c",
+              "ToolTip": "C:\\Users\\user\\Desktop\\25programming-1st\\SBSProgrammingF1\\a19_Dungeun\\Monster.c",
+              "RelativeToolTip": "a19_Dungeun\\Monster.c",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAJcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-11-09T09:03:42.065Z",
               "EditorCaption": ""
             }
           ]

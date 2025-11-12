@@ -13,10 +13,10 @@ void EncounterMonster_DATA(int Encount, int Section);
 
 int main()
 {
-	//srand((unsigned int)time(NULL));
+	srand((unsigned int)time(NULL));
 
 	int Section = 1;
-	int Encount = 1;
+	int Encount = 2;
 	
 	const char* DungeonRoomText[10] = {
 		"상승방","하강방","빈방","빈방","빈방","드롭방",
@@ -48,6 +48,8 @@ int main()
 *   ㄴ 타입문으로 사용할 능력치 연결
 *   ㄴ 장비의 종류 고정화 > 검과 방패로 고정 (임시)
 *	- 오류발생 : 연산자오류
+*	ㄴ 배틀함수는 복사본이 아닌 직접관여로 변경
+*	ㄴ 
 *  2. 던전의 기초공사를 시작. 반복문을 통한 던전루프제작
 *	ㄴ 층을 10층을 제작
 *   ㄴ 10개의 방을 제작하고 4개의 몬스터방, 3개의 빈방, 
